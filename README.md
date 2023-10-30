@@ -1,7 +1,7 @@
-Git Link : https://github.com/Joyalofficial/Ace-Mart-Shop
 
-                                                                                        ECOMMERCE PROJECT(ACE MART)
-                                                                                        ***************************
+
+                              ECOMMERCE PROJECT(ACE MART)
+                              ***************************
 
 ADMIN SIDE 
 **********
