@@ -18,25 +18,25 @@ include('./Layouts/navbar.php');
 ?>
 <!--- products --->
 <div class="products">
-		<div class="container">
-			<div class="col-md-3 products-left">
-            
-                    <?php
-                    side_navbar();
-                    ?>
-                    
-                    																																												
-			</div>
-			<div class="col-md-9 products-right">
-				<div class="products-right-grid">
-					<div class="products-right-grids">
-						<div class="sorting">
-						</div>
-						<div class="sorting-left">
-						</div>
-						<div class="clearfix"> </div>
+	<div class="container">
+		<div class="col-md-3 products-left">
+
+			<?php
+			side_navbar();
+			?>
+
+
+		</div>
+		<div class="col-md-9 products-right">
+			<div class="products-right-grid">
+				<div class="products-right-grids">
+					<div class="sorting">
 					</div>
+					<div class="sorting-left">
+					</div>
+					<div class="clearfix"> </div>
 				</div>
+			</div>
 
 
 
@@ -44,14 +44,11 @@ include('./Layouts/navbar.php');
 
 
 
-<?php
-                get_search_products();
+			<?php
+			get_search_products();
 
 
-?>
-
-
-
+			?>
 
 
 
@@ -59,7 +56,10 @@ include('./Layouts/navbar.php');
 
 
 
-               <!--  <nav class="numbering">
+
+
+
+			<!--  <nav class="numbering">
 					<ul class="pagination paging">
 						<li>
 							<a href="#" aria-label="Previous">
@@ -78,10 +78,10 @@ include('./Layouts/navbar.php');
 						</li>
 					</ul>
 				</nav> -->
-                                </div>
-			<div class="clearfix"> </div>
 		</div>
+		<div class="clearfix"> </div>
 	</div>
+</div>
 
 <?php
 
